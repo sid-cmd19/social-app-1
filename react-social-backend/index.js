@@ -21,7 +21,7 @@ const app = express();
 
 const uri = process.env.MONGO_URL;
 
-//middleware
+//middlewares
 app.use(express.json());
 app.use(helmet());
 app.use(
