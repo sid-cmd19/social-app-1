@@ -25,8 +25,8 @@ router.put("/:id", async (req, res) => {
 });
 
 // Delete User
-// Get a user
-// Follow a user
-// Unfollow a user
+// Get a User
+// Follow a User
+// Unfollow a User
 
 module.exports = router;
