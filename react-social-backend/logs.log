@@ -1,2 +1,16 @@
 GET, URL : /, status : 304, res-len : -, res-time : 2.531 ms, date : Thu, 24 Aug 2023 15:04:09 GMT
 GET, URL : /users, status : 304, res-len : -, res-time : 0.914 ms, date : Thu, 24 Aug 2023 15:04:20 GMT
+GET, URL : /, status : 200, res-len : 19, res-time : 2.899 ms, date : Sun, 15 Oct 2023 15:10:36 GMT
+GET, URL : /favicon.ico, status : 404, res-len : 150, res-time : 1.742 ms, date : Sun, 15 Oct 2023 15:10:37 GMT
+GET, URL : /users, status : 200, res-len : 20, res-time : 0.542 ms, date : Sun, 15 Oct 2023 15:10:42 GMT
+GET, URL : /, status : 304, res-len : -, res-time : 0.895 ms, date : Sun, 15 Oct 2023 15:10:47 GMT
+GET, URL : /api/users, status : 200, res-len : 18, res-time : 3.022 ms, date : Sun, 15 Oct 2023 15:21:55 GMT
+GET, URL : /api/auth, status : 200, res-len : 17, res-time : 3.047 ms, date : Sun, 15 Oct 2023 15:24:43 GMT
+GET, URL : /api/auth/register, status : 200, res-len : 2, res-time : 12.828 ms, date : Sun, 15 Oct 2023 15:41:20 GMT
+POST, URL : /api/auth/register, status : 200, res-len : 271, res-time : 227.869 ms, date : Sun, 15 Oct 2023 16:27:35 GMT
+POST, URL : /api/auth/register, status : 200, res-len : 274, res-time : 229.412 ms, date : Sun, 15 Oct 2023 16:41:20 GMT
+POST, URL : /api/auth/register, status : 200, res-len : 328, res-time : 330.790 ms, date : Sun, 15 Oct 2023 16:48:45 GMT
+POST, URL : /api/auth/login, status : 404, res-len : 16, res-time : 230.724 ms, date : Sun, 15 Oct 2023 16:55:39 GMT
+POST, URL : /api/auth/login, status : 400, res-len : 18, res-time : 3027.009 ms, date : Sun, 15 Oct 2023 16:58:57 GMT
+POST, URL : /api/auth/login, status : -, res-len : -, res-time : - ms, date : Sun, 15 Oct 2023 16:59:32 GMT
+POST, URL : /api/auth/login, status : 200, res-len : 328, res-time : 292.168 ms, date : Sun, 15 Oct 2023 17:00:15 GMT
