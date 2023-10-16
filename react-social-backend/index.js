@@ -7,6 +7,7 @@ const helmet = require("helmet");
 const morgan = require("morgan");
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
+const postRoute = require("./routes/posts");
 
 const logStream = fs.createWriteStream(path.join(__dirname, "logs.log"), {
   flags: "a",
@@ -21,7 +22,7 @@ mongoose.connect(url);
 const User = require("./models/userModel");
 
 // async function insert() {
-//   await User.deleteOne({
+//   await User.insertMany({
 //     name: "Johny",
 //   });
 // }
@@ -44,6 +45,7 @@ app.use(
 
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
+app.use("/api/posts", postRoute);
 
 app.get("/", (req, res) => {
   res.send("Welcome to homepage");
